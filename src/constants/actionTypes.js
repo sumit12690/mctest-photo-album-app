@@ -1,0 +1,6 @@
+export const ADD_USER_TO_FILTER = 'ADD_USER_TO_FILTER';
+export const REMOVE_USER_FROM_FILTER = 'REMOVE_USER_FROM_FILTER';
+export const PREV_PHOTO = 'PREV_PHOTO';
+export const NEXT_PHOTO = 'NEXT_PHOTO';
+export const CURRENT_PHOTO = 'CURRENT_PHOTO';
+export const COUNT_PHOTO = 'COUNT_PHOTO';
