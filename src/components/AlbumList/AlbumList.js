@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Album from '../../components/Album/Album';
-
+import Album from '../Album/Album';
 import { userFilter } from '../../pipes/userFilter';
 
 class AlbumList extends Component {

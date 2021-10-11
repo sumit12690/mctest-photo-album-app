@@ -12,6 +12,7 @@ const AlbumDetail = (props) => {
       {images.map((img, i) => (
         <img
           src={img.url}
+          key={i}
           onClick={() => {
             changeImage(i);
           }}
