@@ -19,7 +19,7 @@ class App extends Component {
       <Provider store={store}>
         <BrowserRouter>
           <React.Fragment>
-            <div class="container">
+            <div className="container">
               <Header />
               <Switch>
                 <Route

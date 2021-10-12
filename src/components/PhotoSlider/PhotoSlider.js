@@ -4,27 +4,25 @@ import { nextPhoto, prevPhoto } from '../../actions';
 
 const PhotoSlider = (props) => {
   const { dispatch, images, currentPhoto } = props;
+  const imageRef = React.createRef();
+  const [img, setImg] = useState(images[currentPhoto].url);
   const prevImage = () => {
     dispatch(prevPhoto());
+    setImg(images[currentPhoto].url);
   };
   const nextImage = () => {
     dispatch(nextPhoto());
+    setImg(images[currentPhoto].url);
   };
-  const imageRef = React.createRef();
-  const [img] = useState(images[currentPhoto].url);
 
   return (
     <article className="sliderWraper">
       <figure>
-        <img
-          ref={imageRef}
-          src={img}
-          style={{ width: '100%', height: '100%' }}
-        />
+        <img ref={imageRef} src={images[currentPhoto].url} />
         <figcaption>{images[currentPhoto].title}</figcaption>
       </figure>
       <div
-        class="prev"
+        className="prev"
         onClick={() => {
           prevImage();
         }}
@@ -32,7 +30,7 @@ const PhotoSlider = (props) => {
         Previous
       </div>
       <div
-        class="next"
+        className="next"
         onClick={() => {
           nextImage();
         }}
@@ -44,8 +42,11 @@ const PhotoSlider = (props) => {
 };
 
 const mapStateToProps = (state) => {
-  const slideState = state.slide;
-  return slideState;
+  const currentPhoto = state.slide.currentPhoto;
+  return {
+    ...state,
+    currentPhoto,
+  };
 };
 
 export default connect(mapStateToProps, null)(PhotoSlider);

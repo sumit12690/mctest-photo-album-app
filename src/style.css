@@ -152,7 +152,11 @@ label.checkbox input {
 
 .thumbnailList {
   display: flex;
-  justify-content: space-around;
+  gap: 10px;
+  gap: 10px 20px; /* row-gap column gap */
+  row-gap: 10px;
+  column-gap: 20px;
+  flex-wrap: wrap;
 }
 
 .thumbnailList img {

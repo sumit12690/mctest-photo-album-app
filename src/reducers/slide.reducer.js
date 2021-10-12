@@ -6,7 +6,7 @@ import {
 } from '../constants/actionTypes';
 
 const initialState = {
-  currentPhoto: 1,
+  currentPhoto: 0,
   totalPhotosCount: 0,
 };
 
