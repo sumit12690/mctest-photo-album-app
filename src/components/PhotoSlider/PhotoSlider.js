@@ -1,18 +1,15 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import { nextPhoto, prevPhoto } from '../../actions';
 
 const PhotoSlider = (props) => {
   const { dispatch, images, currentPhoto } = props;
   const imageRef = React.createRef();
-  const [img, setImg] = useState(images[currentPhoto].url);
   const prevImage = () => {
     dispatch(prevPhoto());
-    setImg(images[currentPhoto].url);
   };
   const nextImage = () => {
     dispatch(nextPhoto());
-    setImg(images[currentPhoto].url);
   };
 
   return (

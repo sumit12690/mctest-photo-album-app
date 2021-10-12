@@ -40,45 +40,70 @@ export const albums = [
   },
   {
     id: 2,
-    title: 'renu',
-    thumb: 'https://www.industrialempathy.com/img/remote/ZiClJf-1280w.avif',
+    title: 'Animals',
+    thumb: 'https://media.istockphoto.com/photos/deer-fawn-picture-id472096009',
     owner: 'renu',
     email: 'renu@gmail.com',
     website: 'www.renu.com',
     photos: [
       {
-        title: 'fourth image',
-        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png',
+        title: 'First image',
+        url: 'https://media.istockphoto.com/photos/group-of-pets-posing-around-a-border-collie-dog-cat-ferret-rabbit-picture-id1296353202',
       },
       {
-        title: 'fifth image',
-        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png',
+        title: 'Second image',
+        url: 'https://media.istockphoto.com/photos/shebear-and-cubs-picture-id1064136288',
       },
       {
-        title: 'sixth image',
-        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png',
+        title: 'Third image',
+        url: 'https://media.istockphoto.com/photos/grizzly-bear-on-a-hill-top-with-flowers-clouds-mountains-picture-id1263706006',
+      },
+      {
+        title: 'Fourth image',
+        url: 'https://media.istockphoto.com/photos/two-beautiful-cats-walking-in-a-sunny-summer-garden-and-catch-a-picture-id1273739165',
+      },
+      {
+        title: 'Fifth image',
+        url: 'https://media.istockphoto.com/photos/portrait-young-woman-with-laughing-corgi-puppy-nature-background-picture-id1276788283',
+      },
+      {
+        title: 'Sixth image',
+        url: 'https://media.istockphoto.com/photos/group-of-african-elephants-in-the-wild-picture-id1128748845',
       },
     ],
   },
   {
     id: 3,
-    title: 'amit',
-    thumb: 'https://www.industrialempathy.com/img/remote/ZiClJf-1280w.avif',
+    title: 'Flowers',
+    thumb:
+      'https://media.istockphoto.com/photos/water-lilies-blooming-in-summer-pond-picture-id1270427630',
     owner: 'amit',
     email: 'amit@gmail.com',
     website: 'www.amit.com',
     photos: [
       {
-        title: 'seventh image',
-        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png',
+        title: 'First image',
+        url: 'https://media.istockphoto.com/photos/young-woman-at-home-picture-id1249163275',
       },
       {
-        title: 'eight image',
-        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png',
+        title: 'Second image',
+        url: 'https://media.istockphoto.com/photos/idyllic-meadow-picture-id1294119130',
       },
       {
-        title: 'nine image',
-        url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png',
+        title: 'Third image',
+        url: 'https://media.istockphoto.com/photos/field-of-young-orange-sunflowers-picture-id1255934700',
+      },
+      {
+        title: 'Fourth image',
+        url: 'https://media.istockphoto.com/photos/nature-chrysanthemum-picture-id155141290',
+      },
+      {
+        title: 'Fifth image',
+        url: 'https://media.istockphoto.com/photos/colorful-meadow-picture-id1295797184',
+      },
+      {
+        title: 'Sixth image',
+        url: 'https://media.istockphoto.com/photos/beautiful-pastel-peony-floral-background-soft-pastel-wedding-romantic-picture-id1286332849',
       },
     ],
   },
